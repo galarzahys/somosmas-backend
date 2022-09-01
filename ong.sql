@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 30-08-2022 a las 19:50:04
+-- Tiempo de generación: 01-09-2022 a las 00:22:28
 -- Versión del servidor: 5.7.36
 -- Versión de PHP: 7.4.26
 
@@ -49,10 +49,7 @@ INSERT INTO `activities` (`id`, `name`, `image`, `content`, `deletedAt`, `create
 (3, 'Tutorías', 'uploads/8fa5e5e4-937c-47cc-b9ab-b37b9c605dc4', 'Es un programa destinado a jóvenes a partir del tercer año de secundaria, cuyo objetivo es garantizar su permanencia en la escuela y construir un proyecto de vida que da sentido al colegio. El objetivo de esta propuesta es lograr la integración escolar de niños y jóvenes del barrio promoviendo el soporte socioeducativo y emocional apropiado, desarrollando los recursos institucionales necesarios a través de la articulación de nuestras intervenciones con las escuelas que los alojan, con las familias de los alumnos y con las instancias municipales, provinciales y nacionales que correspondan.', NULL, '2022-08-18 14:57:49', '2022-08-23 22:42:43'),
 (4, 'Talleres de Arte Escénica', 'uploads/d85a43b6-d2b9-47f4-a8a6-7a832b2e3f31', 'Se llevan a cabo distintas actividades recreativas para la reflexión sobre los derechos de niños, niñas y adolescentes y sus experiencias en el día a día. \r\nLos eventos incluyen juegos, narración de cuentos, música y obras teatrales. \r\nChicos y chicas interactuan y participan con instrumentos y canciones, y maquillajes y tatuajes infantiles artísticos.', NULL, '2022-08-22 20:19:50', NULL),
 (5, 'Paseos de Verano', 'uploads/e185689b-64d4-4032-a743-4dd6980fc492', 'Somos mas posee un convenio con una de las colonias mas populares de la zona para que todos los chicos puedan disfrutar de actividades recreativas, el agua, la diversión y la inclusión.', NULL, '2022-08-22 15:48:37', '2022-08-23 22:56:34'),
-(6, 'Paseos Recreativos y Educativos', 'uploads/f58f2ecf-8539-48b6-acea-d2da687f32a0', 'Estos paseos están pensados para promover la participación y sentido de pertenencia de los niños, niñas y adolescentes al área educativa.', NULL, '2022-08-23 23:04:39', '2022-08-23 23:04:39'),
-(8, 'Apoyo Escolar para Nivel Primario', 'Manos 10.jpg', 'El espacio de apoyo escolar es el corazón del área educativa. Se realizan los talleres de lunes a jueves de 10 a 12 horas y de 14 a 16 horas en el contraturno, Los sábados también se realiza el taller para niños y niñas que asisten a la escuela doble turno. Tenemos un espacio especial para los de 1er grado 2 veces por semana ya que ellos necesitan atención especial! Actualmente se encuentran inscriptos a este programa 150 niños y niñas de 6 a 15 años. Este taller está pensado para ayudar a los alumnos con el material que traen de la escuela, también tenemos una docente que les da clases de lengua y matemática con una planiﬁcación propia que armamos en Manos para nivelar a los niños y que vayan con más herramientas a la escuela.', NULL, '2022-08-30 12:01:11', NULL),
-(9, 'Apoyo Escolar para Nivel Secundario', 'Foto 4.jpg', 'Del mismo modo que en primaria, este taller es el corazón del área secundaria. Se realizan talleres de lunes a viernes de 10 a 12 horas y de 16 a 18 horas en el contraturno. Actualmente se encuentran inscriptos en el taller 50 adolescentes entre 13 y 20 años. Aquí los jóvenes se presentan con el material que traen del colegio y una docente de la institución y un grupo de voluntarios los recibe para ayudarlos a estudiar o hacer la tarea. Este espacio también es utilizado por los jóvenes como un punto de encuentro y relación entre ellos y la institución.', NULL, '2022-08-30 12:01:11', NULL),
-(10, 'Tutorías', 'Foto 6.jpg', 'Es un programa destinado a jóvenes a partir del tercer año de secundaria, cuyo objetivo es garantizar su permanencia en la escuela y construir un proyecto de vida que da sentido al colegio. El objetivo de esta propuesta es lograr la integración escolar de niños y jóvenes del barrio promoviendo el soporte socioeducativo y emocional apropiado, desarrollando los recursos institucionales necesarios a través de la articulación de nuestras intervenciones con las escuelas que los alojan, con las familias de los alumnos y con las instancias municipales, provinciales y nacionales que correspondan.', NULL, '2022-08-30 12:01:11', NULL);
+(6, 'Paseos Recreativos y Educativos', 'uploads/f58f2ecf-8539-48b6-acea-d2da687f32a0', 'Estos paseos están pensados para promover la participación y sentido de pertenencia de los niños, niñas y adolescentes al área educativa.', NULL, '2022-08-23 23:04:39', '2022-08-23 23:04:39');
 
 -- --------------------------------------------------------
 
@@ -282,10 +279,10 @@ CREATE TABLE IF NOT EXISTS `testimonials` (
 INSERT INTO `testimonials` (`id`, `name`, `image`, `content`, `createdAt`, `updatedAt`) VALUES
 (1, 'Marta', 'uploads/6b18a181-4b44-48e7-923e-40f070b5953b', 'Somos Mas es una institución transparente y muy activa', '2022-08-23 21:41:23', '2022-08-23 21:41:23'),
 (2, 'Juan Garcia', 'uploads/ff12f101-16c7-4055-bb49-34a87120eeb2', 'Ser voluntario de Somos Mas, es lo Más! y Somos Mas!', '2022-08-23 21:42:46', '2022-08-23 21:42:47'),
-(3, 'Morgan', 'uploads/ed3c5384-8786-4dac-9f6d-d730a515a685', 'I don\'t know what am i doing here, but The Debuggy team is the best! Hire them!', '2022-08-23 21:47:23', '2022-08-23 21:47:23'),
+(3, 'Morgan', 'uploads/ed3c5384-8786-4dac-9f6d-d730a515a685', 'Are you looking a good developer? Then hire Gonzalo!', '2022-08-23 21:47:23', '2022-08-23 21:47:23'),
 (4, 'Carlos', 'uploads/ac52083d-2a80-4c46-829a-bea26b15ba88', 'Soy gauchito! Gente buena si que la hay!', '2022-08-24 13:52:38', '2022-08-24 13:52:38'),
 (5, 'Daniel', 'uploads/d557bfba-5740-45dd-84af-84239cad832b', 'Creí que no era posible! pero Somos Mas es un proyecto hecho realidad!', '2022-08-23 21:49:59', '2022-08-23 21:49:59'),
-(6, 'Vicente', 'uploads/680007ff-a808-4b94-891d-4dc16ae987dd', 'The Debbugy Team, doesn\'t need NOS! They are the NOS!', '2022-08-23 21:54:00', '2022-08-23 21:54:00');
+(6, 'Vicente', 'uploads/680007ff-a808-4b94-891d-4dc16ae987dd', 'Is Gonzalo working for you? Just relax.', '2022-08-23 21:54:00', '2022-08-23 21:54:00');
 
 -- --------------------------------------------------------
 
